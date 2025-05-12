@@ -1,0 +1,300 @@
+
+html{height: 100dvh;
+    width: 100dvh;
+    overflow: hidden;
+    
+
+}
+body{height: 100dvh;
+    width: 100dvw;
+    overflow: scroll;
+    display: grid;
+    grid-template-rows: 0.5fr 1fr;
+    scroll-behavior: smooth;
+    scroll-padding: 1rem;
+    scrollbar-color: green;
+    scroll-margin: radius 5px;
+    scrollbar-width: 5px;
+    
+
+}
+
+.picture{ height: 100%;
+      width: 100%;
+    background-color:white;
+
+    background-image: url("image\ for\ calculator.jpg");
+    background-size: cover;
+    background-repeat: no-repeat ;
+    
+    
+    
+
+
+    
+
+    }
+
+.overlay{height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    background-color: rgba(0, 0, 0, 0.222);
+
+    
+
+
+}
+
+.title{font-family: cursive;
+    font-size: xx-large;
+    font-weight: 1000 ;
+    color: yellow;
+    justify-self: center;
+    align-self: center;
+    
+
+}
+
+.Libo{
+    font-size: larger;
+    color: yellow;
+    justify-self: center;
+    align-self: center;
+}
+
+.addition_bar{padding: 1rem;
+    padding-bottom: 0rem;
+    padding-left: 1rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    
+    
+
+}
+
+.input{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: top;
+    padding: 0.5rem;
+    border-radius: 4px;
+    box-shadow: 0cqmin;
+    background-image: url("picture\ for\ cv.jpg");
+
+    
+
+}
+
+.box1{
+    width: 100%;
+    height: 100%;
+    
+    border-radius: 5px;
+    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.badboy{
+    background-image: url("very\ good.jpg");
+}
+.goodboy{
+    display: flex;
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+
+}
+.under{
+    background-image: url("yes.jpg");
+}
+.over{
+    background-color: black;
+}
+
+
+
+.delta{
+    height: 15%;
+    width: 10%;
+    background-image: url("OIP.jpg");
+    border-radius: 15px;
+    
+}
+.numbertext{
+    color: blue;
+    font-size: small;
+    position: absolute;
+    bottom: auto;
+    width: 100%;
+    top: 0;
+}
+.caption{
+    color: blue;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.dot{
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0.2px;
+    background-color: blue;
+    display: inlene-block;
+    transition: backround-color 0.6 ease;
+}
+.fade{
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade{
+    from{opacity: .4;}
+    to{opacity: .1;}
+}
+
+.mom{height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: top;
+    background-color:white;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-image: url("picture\ for\ website.jpg");
+    align-self: bottom;
+
+}
+
+.Awon{
+    color: white;
+}
+
+.box5{
+    height: 60%;
+    width: 100%;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bhuti{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: xx-large;
+}
+
+.box2{
+    height: 60%;
+    width: 100%;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Bongo{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: xx-large;
+}
+
+.box3{
+    height: 60%;
+    width: 100%;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.dad{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: xx-large;
+}
+
+.box4{
+    height: 60%;
+    width: 100%;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Table{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: xx-large;
+    
+}
+ .box7{
+    height: 100%;
+    width: 100%;
+    background-image: url("The\ best.jpg");
+    
+    
+    
+    overflow-y: scroll;
+    scrollbar-width: 15px;
+    scroll-behavior: smooth;
+    border-radius: 10px;
+    padding-left: 2rem;
+
+ }
+
+ .box8{
+    height: 100%;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ }
+
+ .betty{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+
+ }
+
+ .cup{
+    font-family: cursive;
+    font-size: xx-large;
+    font-weight: 1000 ;
+    color: yellow;
+    
+ }
+
+ .bottle{
+    font-size: larger;
+    color: yellow;
+    justify-self: center;
+ }
+ 
+ .dod{
+    font-family: Arial, Helvetica, sans-serif;
+    color: yellow;
+    font-size: xx-large;
+    align-self: center;
+ }
+
